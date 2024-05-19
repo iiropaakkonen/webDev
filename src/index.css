@@ -22,3 +22,13 @@
   font-family: Arial, sans-serif;
   
 }
+.student {
+  font-family: Arial, sans-serif;
+  font-size: 1em;
+  padding: 10px;
+  border: 1px solid hsla(0, 0%, 50%, 0.8);
+  max-width: 120px;
+}
+.student p {
+  margin: 0;
+}
