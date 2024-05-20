@@ -2,13 +2,13 @@
 function Header() {
     return(
         <header>
-            <h1>My website</h1>
+            <h1><a href="#home">My website</a></h1>
             <nav>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Contact</a></li>
+                <ul className="nav-list-full">
+                    <li><a className="nav-list" href="#home">Home</a></li>
+                    <li><a className="nav-list" href="#about">About</a></li>
+                    <li><a className="nav-list" href="#services">Services</a></li>
+                    <li><a className="nav-list" href="#contact">Contact</a></li>
                 </ul>
             </nav>
             <hr></hr>
