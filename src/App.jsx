@@ -12,8 +12,6 @@ function App() {
     <>
     <Header/>
     <Card/>
-    <UserGreeting isLoggedIn={false} username="Irppa"/>
-    <List/>
     <Footer/>
     </>
   );
